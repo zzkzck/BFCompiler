@@ -1,0 +1,32 @@
+# Build outputs
+brainfuck_run
+BF
+bf
+*.o
+*.out
+*.exe
+
+# Generated files
+out.s
+out.asm
+out.c
+
+# clangd cache
+.cache/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# CMake / build directories, if added later
+build/
+cmake-build-*/
+
+# Temporary files
+*.tmp
+*.log
